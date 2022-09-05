@@ -79,9 +79,20 @@ p{
 
 /* Media Queries */
 @media (min-width: 400px) {
+
+
+
+    /* Textos */
+
+    h1{
+        font-size: 3rem;
+    }
+    p{
+        font-size: 2rem;
+    }
     /* Card */
     .card{
-        width:30rem;
+        width:40rem;
     }
     /* Card Image */
     .card__img{
