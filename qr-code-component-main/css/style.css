@@ -1,0 +1,104 @@
+:root{
+
+    --white: hsl(0, 0%, 100%);
+    --lightgray:hsl(212, 45%, 89%);
+    --grayish:hsl(220, 15%, 55%);
+    --darkblue:hsl(218, 44%, 22%);
+    --font:'Outfit', sans-serif;
+
+}
+
+
+html{
+    box-sizing: border-box;
+    font-size:  62.5%;
+    height: 100%;
+    
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+
+}
+
+body{
+    background-color: var(--lightgray);
+    height: 100vh;
+}
+
+
+/* Globales */
+
+
+h1,p{
+    font-family: var(--font);
+    text-align: center;
+}
+h1{
+    font-size: 2rem;
+    color: var(--darkblue);
+    margin-top: 2rem;
+}
+p{
+    font-size: 1.5rem;
+    color: var(--grayish);
+    margin-bottom:2rem;
+    
+}
+
+
+/* Container */
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+/* Card */
+.card{
+    margin: 0 auto;
+    background-color: var(--white);
+    padding: 1.5rem;
+    border-radius: 2rem;
+    width: 30rem;
+    
+}
+/* Card Image */
+.card__img{
+    width: 100%;
+    border-radius: 1rem;
+}
+.card__img img{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+
+/* Media Queries */
+@media (min-width: 400px) {
+    /* Card */
+    .card{
+        width:30rem;
+    }
+    /* Card Image */
+    .card__img{
+        width:100%;
+        
+    }
+    .card__img img{
+        width: 100%;
+        border-radius: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
